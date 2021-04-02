@@ -1,0 +1,49 @@
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica
+$ mkdir mercadoAbierto
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica
+$ cd mercadoAbierto
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/mercadoAbierto
+$ git init
+Initialized empty Git repository in C:/Users/romic/Documents/TD/Introduccion a la informatica/mercadoAbierto/.git/
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/mercadoAbierto (master)
+$ touch productos.js
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/mercadoAbierto (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        productos.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/mercadoAbierto (master)
+$ git add productos.js
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/mercadoAbierto (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   productos.js
+
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/mercadoAbierto (master)
+$ git commit -m "mi primer commit"
+[master (root-commit) b68ebd2] mi primer commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 productos.js
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/mercadoAbierto (master)
+$ git status
+On branch master
+nothing to commit, working tree clean

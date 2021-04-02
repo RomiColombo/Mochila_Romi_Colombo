@@ -1,0 +1,37 @@
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica
+$ mkdir ejercicio
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica
+$ cd ejercicio
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/ejercicio
+$ git init
+Initialized empty Git repository in C:/Users/romic/Documents/TD/Introduccion a la informatica/ejercicio/.git/
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/ejercicio (master)
+$ touch app.js
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/ejercicio (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/ejercicio (master)
+$ git add app.js
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Documents/TD/Introduccion a la informatica/ejercicio (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   app.js

@@ -1,0 +1,41 @@
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop
+$ mkdir informes
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop
+$ cd informes
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes
+$ touch informeAnual.xls
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes
+$ ls
+informeAnual.xls
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes
+$ mkdir auditoria
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes
+$ touch auditoria.xls
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes
+$ touch reporteConsolidado.xls
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes
+$ ls
+auditoria/  auditoria.xls  informeAnual.xls  reporteConsolidado.xls
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes
+$ pwd
+/c/Users/romic/Desktop/informes
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes
+$ mv auditoria.xls /c/Users/romic/Desktop/informes/auditoria
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes
+$ cd auditoria
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes/auditoria
+$ ls
+auditoria.xls
+
+romic@LAPTOP-HEMKR1Q4 MINGW64 ~/Desktop/informes/auditoria

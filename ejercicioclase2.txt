@@ -1,0 +1,13 @@
+cd Desktop
+cd carpeta1
+mv crear.txt digital.txt
+mv mover3.txt house.txt
+rm eliminar.txt
+
+
+cd
+cd Desktop
+cd carpeta3
+mv crear3.txt Introduccion.txt
+mv mover1.txt Informatica.txt
+rm elminar3.txt
